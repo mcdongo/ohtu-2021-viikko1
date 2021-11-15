@@ -1,5 +1,6 @@
 class Varasto:
     def __init__(self, tilavuus, alku_saldo = 0):
+        print("tässä tulee todella pitkä viesti, jonka merkkimäärä ylittyy reippaasti siitä mikä on sallitu pylintin uuden konfiguraation mukaan. japadabaduu!!!!!!!!!!!")
         if tilavuus > 0.0:
             self.tilavuus = tilavuus
         else:
